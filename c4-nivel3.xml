@@ -1,4 +1,4 @@
-<mxGraphModel dx="6016" dy="3391" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxGraphModel dx="5762" dy="3244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
   <root>
     <mxCell id="0" />
     <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
     </object>
     <object placeholders="1" c4Name="reservations-demo" c4Type="ContainerScopeBoundary" c4Application="Java 17 / Spring Boot 3.2" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="boundary">
       <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;" vertex="1">
-        <mxGeometry height="1250" width="2200" x="100" y="60" as="geometry" />
+        <mxGeometry height="1448" width="2323" x="100" y="-138" as="geometry" />
       </mxCell>
     </object>
-    <object placeholders="1" c4Name="ReservationController" c4Type="Component" c4Technology="@RestController /reservations" c4Description="CRUD de reservas.&#xa;Valida JWT localmente.&#xa;Filtra por rol ADMIN/USER.&#xa;ReservationRequest/Response&#xa;ReservationRequestMapper" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-reservation-ctrl">
+    <object placeholders="1" c4Name="ReservationController" c4Type="Component" c4Technology="@RestController /reservations" c4Description="CRUD de reservas.&#xa;Valida JWT localmente.&#xa;Filtra por rol ADMIN/USER." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-reservation-ctrl">
       <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="200" width="220" x="150" y="130" as="geometry" />
       </mxCell>
@@ -46,17 +46,17 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="ReservationUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="create, findAll, findByUser&#xa;findById, update, deleteById" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-reservation-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="500" y="150" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="CalendarUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="exportOne(id): String&#xa;exportAll(): String" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-calendar-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="510" y="440" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="AuthProxyUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="login, register, logout&#xa;record AuthResult" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-auth-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="500" y="710" as="geometry" />
       </mxCell>
     </object>
@@ -86,17 +86,17 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="ReservationRepository" c4Type="Component" c4Technology="interface (port out)" c4Description="save, findAll, findByCreatedBy&#xa;findById, findByRoomId&#xa;deleteById" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-reservation-repo">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="1660" y="160" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="AuthServicePort" c4Type="Component" c4Technology="interface (port out)" c4Description="validateToken, extractUsername&#xa;extractRole, login, register&#xa;logout, getEmailByUsername&#xa;getAllUsers" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-auth-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="1630" y="450" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="EmailQueuePort" c4Type="Component" c4Technology="interface (port out)" c4Description="publish(to, subject, body)&#xa;Publica mensaje en cola Redis." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="i-email-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="1450" y="730" as="geometry" />
       </mxCell>
     </object>
@@ -105,7 +105,7 @@
         <mxGeometry height="200" width="220" x="1840" y="1060" as="geometry" />
       </mxCell>
     </object>
-    <object placeholders="1" c4Name="SqlServerReservationAdapter" c4Type="Component" c4Technology="Spring Data JPA" c4Description="Implementa ReservationRepository.&#xa;Traduce Reservation a ReservationEntity.&#xa;JpaReservationRepository&#xa;ReservationEntityMapper" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-sql-adapter">
+    <object placeholders="1" c4Name="SqlServerReservationAdapter" c4Type="Component" c4Technology="Spring Data JPA" c4Description="Implementa ReservationRepository.&#xa;Traduce Reservation a ReservationEntity.&#xa;JpaReservationRepository." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-sql-adapter">
       <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="200" width="220" x="2010" y="140" as="geometry" />
       </mxCell>
@@ -195,7 +195,7 @@
     <mxCell id="e13" edge="1" parent="1" source="c-reservation-svc" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="i-reservation-repo" value="via port out">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
-          <mxPoint x="920" y="80" />
+          <mxPoint x="997" y="80" />
           <mxPoint x="1770" y="80" />
         </Array>
       </mxGeometry>
@@ -331,17 +331,17 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="EmailQueuePort" c4Type="Component" c4Technology="interface (port out)" c4Description="dequeue(): EmailMessage&#xa;Consume mensaje de Redis." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="em-queue-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="680" y="-1570" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="EmailSenderPort" c4Type="Component" c4Technology="interface (port out)" c4Description="send(EmailMessage): void&#xa;Envia email via SMTP." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="em-sender-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="700" y="-1330" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="EmailLogRepository" c4Type="Component" c4Technology="interface (port out)" c4Description="save(EmailLog): EmailLog&#xa;findAll(): List&lt;EmailLog&gt;" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="em-log-repo">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="690" y="-1090" as="geometry" />
       </mxCell>
     </object>
@@ -362,7 +362,7 @@
     </object>
     <object placeholders="1" c4Name="EmailConfig" c4Type="Component" c4Technology="@Configuration @EnableScheduling" c4Description="Wiring de puertos y adaptadores.&#xa;EmailQueuePort -&gt; RedisEmailQueueAdapter&#xa;EmailSenderPort -&gt; GmailEmailSenderAdapter&#xa;EmailLogRepository -&gt; SqlServerEmailLogAdapter" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="em-config">
       <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
-        <mxGeometry height="200" width="220" x="1970" y="-1080" as="geometry" />
+        <mxGeometry height="200" width="220" x="1963" y="-1063" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="emaildb" c4Type="Container" c4Technology="SQL Server 2022" c4Description="Almacena logs de emails enviados." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="em-db">
@@ -489,7 +489,7 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="RegisterUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="register(username, email, password)&#xa;returns User" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-register-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="66" y="2391" as="geometry" />
       </mxCell>
     </object>
@@ -510,7 +510,7 @@
     </object>
     <object placeholders="1" c4Name="InvalidCredentialsException" c4Type="Component" c4Technology="Java puro (exception)" c4Description="Lanzada cuando las credenciales&#xa;no coinciden en el login." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-invalid-ex">
       <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
-        <mxGeometry height="200" width="220" x="476" y="1841" as="geometry" />
+        <mxGeometry height="200" width="220" x="1220" y="1827" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="UserAlreadyExistsException" c4Type="Component" c4Technology="Java puro (exception)" c4Description="Lanzada cuando el username&#xa;ya existe en el registro." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-exists-ex">
@@ -554,12 +554,12 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="AuthUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="login, register, logout&#xa;countUsers, record AuthResult" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="f-auth-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="-2287" y="170" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="ReservationUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="findAll, create, update&#xa;delete, downloadIcs, downloadAllIcs" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="f-res-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="-2427" y="440" as="geometry" />
       </mxCell>
     </object>
@@ -574,12 +574,12 @@
       </mxCell>
     </object>
     <object placeholders="1" c4Name="AuthServicePort" c4Type="Component" c4Technology="interface (port out)" c4Description="login, register, logout&#xa;countUsers" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="f-auth-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="-1557" y="170" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="ReservationServicePort" c4Type="Component" c4Technology="interface (port out)" c4Description="findAll, create, update&#xa;delete, downloadIcs, downloadAllIcs" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="f-res-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="-1497" y="420" as="geometry" />
       </mxCell>
     </object>
@@ -728,17 +728,17 @@
       <mxGeometry relative="1" as="geometry" />
     </mxCell>
     <object placeholders="1" c4Name="UserRepository" c4Type="Component" c4Technology="interface (port out)" c4Description="findByUsername, existsByUsername&#xa;save(User): User" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-user-repo">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="1366" y="2231" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="TokenPort" c4Type="Component" c4Technology="interface (port out)" c4Description="generateToken, validateToken&#xa;extractUsername, extractRole&#xa;blacklist, isBlacklisted" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-token-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
-        <mxGeometry height="160" width="220" x="1336" y="1991" as="geometry" />
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="160" width="220" x="1425" y="2039" as="geometry" />
       </mxCell>
     </object>
     <object placeholders="1" c4Name="NotificationPort" c4Type="Component" c4Technology="interface (port out)" c4Description="sendWelcomeEmail(to, username)&#xa;Publica en Redis email_queue." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-notif-port">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="476" y="2751" as="geometry" />
       </mxCell>
     </object>
@@ -782,7 +782,7 @@
       <mxGeometry relative="1" x="-0.1951" as="geometry">
         <mxPoint as="offset" />
         <Array as="points">
-          <mxPoint x="576" y="2061" />
+          <mxPoint x="576" y="2083" />
         </Array>
       </mxGeometry>
     </mxCell>
@@ -829,7 +829,8 @@
       <mxGeometry relative="1" x="-0.55" as="geometry">
         <mxPoint as="offset" />
         <Array as="points">
-          <mxPoint x="966" y="1941" />
+          <mxPoint x="1103" y="2147" />
+          <mxPoint x="1103" y="1941" />
         </Array>
       </mxGeometry>
     </mxCell>
@@ -916,7 +917,7 @@
       </mxGeometry>
     </mxCell>
     <object placeholders="1" c4Name="LoginUseCase" c4Type="Component" c4Technology="interface (port in)" c4Description="login(username, password)&#xa;returns LoginResult(token, username, email, role)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-login-uc">
-      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#1e293b;align=center;arcSize=6;strokeColor=#6c8ebf;metaEdit=1;resizable=0;" vertex="1">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#006EAF;metaEdit=1;resizable=0;" vertex="1">
         <mxGeometry height="160" width="220" x="466" y="2121" as="geometry" />
       </mxCell>
     </object>
@@ -948,6 +949,123 @@
           <mxPoint x="2233" y="-1529" />
         </Array>
       </mxGeometry>
+    </mxCell>
+    <object placeholders="1" c4Name="ReservationRequest" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de entrada para crear/actualizar&#xa;reservas. roomId, title, startTime,&#xa;endTime." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-res-request-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="150" width="200" x="505" y="-121" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="ReservationResponse" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de salida con datos de reserva.&#xa;id, roomId, title, startTime,&#xa;endTime, createdBy." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-res-response-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="150" width="200" x="930" y="-124" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="ReservationRequestMapper" c4Type="Component" c4Technology="Mapper" c4Description="Convierte ReservationRequest&#xa;a entidad de dominio Reservation." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-res-req-mapper">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="150" width="200" x="160" y="-127" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="ReservationEntityMapper" c4Type="Component" c4Technology="Mapper" c4Description="Traduce entre Reservation (dominio)&#xa;y ReservationEntity (JPA)." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="c-res-entity-mapper">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="150" width="200" x="2020" y="-104" as="geometry" />
+      </mxCell>
+    </object>
+    <mxCell id="e-ctrl-req-dto" edge="1" parent="1" source="c-reservation-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="c-res-request-dto" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="252" y="58" />
+          <mxPoint x="609" y="58" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e-ctrl-resp-dto" edge="1" parent="1" source="c-reservation-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="c-res-response-dto" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="326" y="88" />
+          <mxPoint x="750" y="88" />
+          <mxPoint x="750" y="-48" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e-ctrl-req-mapper" edge="1" parent="1" source="c-reservation-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="c-res-req-mapper" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="189" y="84" />
+          <mxPoint x="189" y="84" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e-sql-entity-mapper" edge="1" parent="1" source="c-sql-adapter" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="c-res-entity-mapper" value="usa">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <object placeholders="1" c4Name="LoginRequest" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de entrada para login.&#xa;username, password." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-login-req-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="130" width="200" x="614" y="1845" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="RegisterRequest" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de entrada para registro.&#xa;username, email, password." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-register-req-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="130" width="200" x="869" y="1845" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="AuthResponse" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de salida para login.&#xa;token, username, email, role." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-auth-resp-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="130" width="200" x="360" y="1841" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="UserResponse" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO de salida para usuarios.&#xa;id, username, email, role." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-user-resp-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="130" width="200" x="1483" y="2885" as="geometry" />
+      </mxCell>
+    </object>
+    <object placeholders="1" c4Name="AuthMapper" c4Type="Component" c4Technology="Mapper" c4Description="Convierte entre DTOs y dominio.&#xa;toResponse(User, token): AuthResponse&#xa;toUserResponse(User): UserResponse" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="au-auth-mapper">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="130" width="200" x="69" y="1854" as="geometry" />
+      </mxCell>
+    </object>
+    <mxCell id="au-e-ctrl-login-dto" edge="1" parent="1" source="au-auth-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="au-login-req-dto" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="243" y="2035" />
+          <mxPoint x="714" y="2035" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="au-e-ctrl-register-dto" edge="1" parent="1" source="au-auth-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="au-register-req-dto" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="342" y="2153" />
+          <mxPoint x="342" y="2062" />
+          <mxPoint x="968" y="2062" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="au-e-ctrl-auth-resp" edge="1" parent="1" source="au-auth-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="au-auth-resp-dto" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="201" y="2010" />
+          <mxPoint x="457" y="2010" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="au-e-ctrl-mapper" edge="1" parent="1" source="au-auth-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="au-auth-mapper" value="usa">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="166" y="2047" />
+          <mxPoint x="166" y="2047" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="au-e-userctrl-resp" edge="1" parent="1" source="au-user-ctrl" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="au-user-resp-dto" value="usa">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <object placeholders="1" c4Name="ReservationDto" c4Type="Component" c4Technology="DTO (record)" c4Description="DTO compartido en frontend.&#xa;id, roomId, title, startTime,&#xa;endTime, createdBy." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="f-res-dto">
+      <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;" vertex="1">
+        <mxGeometry height="150" width="200" x="-2417" y="890" as="geometry" />
+      </mxCell>
+    </object>
+    <mxCell id="f-e-res-dto" edge="1" parent="1" source="f-res-uc" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2086C9;fontColor=#1e293b;fontSize=11;endArrow=block;endFill=1;" target="f-res-dto" value="usa">
+      <mxGeometry relative="1" as="geometry" />
     </mxCell>
   </root>
 </mxGraphModel>
